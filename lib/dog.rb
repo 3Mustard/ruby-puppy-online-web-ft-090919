@@ -17,8 +17,8 @@ class Dog
   end 
   
   def self.print_all
-    names.collect do |name|
-      puts 
+    @all.collect do |name|
+      puts "#{}"
     end 
   end 
 end 
