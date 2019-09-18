@@ -17,8 +17,7 @@ class Dog
   end 
   
   def self.print_all
-    
-    names. do |name|
+    names.collect do |name|
       puts 
     end 
   end 
